@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Button } from 'antd'
-import chatForum from './ChatForum'
+// import chatForum from './ChatForum'
 function App() {
   const [enterprise, setEnterprise] = useState<boolean>(false)
   const [daily, setDaily] = useState<boolean>(false)

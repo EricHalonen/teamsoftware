@@ -10,5 +10,5 @@ interface threads {
 }
 //list of kingMessages, onCLick=> show multiMessages
 export default function chatForum() {
-
+    return <div></div>
 }
