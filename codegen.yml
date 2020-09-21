@@ -1,0 +1,12 @@
+overwrite: true
+schema: "path"
+documents: "ui/src/"
+generates:
+  ui/src/generated/:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+  ./graphql.schema.json:
+    plugins:
+      - "introspection"

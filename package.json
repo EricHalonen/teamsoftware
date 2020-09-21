@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@graphql-codegen/cli": "1.17.8",
+<<<<<<< Updated upstream
     "@graphql-codegen/typescript": "1.17.8",
     "@graphql-codegen/typescript-operations": "1.17.8",
     "@graphql-codegen/typescript-react-apollo": "1.17.8",
@@ -8,9 +9,23 @@
   },
   "dependencies": {
     "graphql": "^15.3.0"
+=======
+    "@graphql-codegen/introspection": "1.17.8",
+    "@graphql-codegen/typescript": "1.17.8",
+    "@graphql-codegen/typescript-operations": "1.17.8",
+    "@graphql-codegen/typescript-react-apollo": "1.17.8"
+  },
+  "dependencies": {
+    "graphql": "^15.3.0",
+    "graphql-codegen": "^0.4.0"
+>>>>>>> Stashed changes
   },
   "scripts": {
     "yarn run codegen": "graphql-codegen --config codegen.yml",
     "codegen": "graphql-codegen --config codegen.yml"
   }
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
